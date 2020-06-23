@@ -4,7 +4,7 @@ def square_array(array)
    # square = number**2 
  #array_sq = [square]   
 
-arr.each_with_object({}) do |number, result|
+array.each_with_object({}) do |number, result|
   result[number] = value**2 
 end
 end
