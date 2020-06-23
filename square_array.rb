@@ -5,6 +5,6 @@ def square_array(array)
  #array_sq = [square]   
 
 array.each_with_object({}) do |number, result|
-  result[number] = value**2 
+  result[number] = number**2 
 end
 end
